@@ -60,7 +60,7 @@
 
 <div class="pageBody">
     <div class="banner">
-        <h4>Helpful Dynasty Resources</h4>
+        <h4>Helpful  Resources</h4>
     </div>
 
     <List class="list" dense>
@@ -104,5 +104,5 @@
             {/if}
         {/each}
     </List>
-    <p class="disclaimer">*Some or all content is behind a paywall</p>
+    
 </div>
