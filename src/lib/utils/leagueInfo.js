@@ -8,8 +8,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Listen, I'm not gonna sit up here and act like I didn't build a website for the league.</p>
-  <p>If I had to do it again maybe I don't do it but being the champion, I feel like.</p>
-  <p>That</p>
+  
 
     <p>.</p>
 
