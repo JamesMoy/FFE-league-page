@@ -101,7 +101,7 @@
 
 <!-- footer with update notice -->
 <footer bind:this={el}>
-   
+	<div>Heg's a bitch</div>
 	<div id="navigation">
 		<ul>
 			{#each tabs as tab}
