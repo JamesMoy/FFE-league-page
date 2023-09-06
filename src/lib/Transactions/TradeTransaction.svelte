@@ -33,6 +33,13 @@
         line-height: 1em;
         margin: 0.2em;
     }
+
+    .currentOwner {
+        font-style: italic;
+        color: var(--aaa);
+        font-size: 0.7em;
+    }
+
     .clickable {
         cursor: pointer;
     }
@@ -95,7 +102,8 @@
                             <span class="ownerName">
                                 {getTeamFromTeamManagers(leagueTeamManagers, owner, transaction.season).name}
                                 {#if getTeamFromTeamManagers(leagueTeamManagers, owner, transaction.season).name != getTeamFromTeamManagers(leagueTeamManagers, owner).name}
-                                    <br />                               
+                                    <br />
+                                {/if}
                             </span>
                         </div>
                     </th>
