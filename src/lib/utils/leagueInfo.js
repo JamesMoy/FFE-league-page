@@ -8,11 +8,8 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to our league web page.</p>
-<<<<<<< HEAD
 `;
-=======
-`\;
->>>>>>> 146c29402a04bd50df77c121ab87972711703453
+
 
 /*   STEP 3   */
 /*
