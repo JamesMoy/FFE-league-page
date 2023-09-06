@@ -9,6 +9,13 @@
 	url: "https://www.draftkings.com/",
 	icon: "insights",
 	premium: true,
+	separator: true,https://www.nflbite.com/
+	},
+	{
+	name: "Watch some film",
+	url: "https://www.nflbite.com/",
+	icon: "insights",
+	premium: true,
 	separator: true,
 	}
 	];

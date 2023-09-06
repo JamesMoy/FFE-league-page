@@ -101,7 +101,7 @@
 
 <!-- footer with update notice -->
 <footer bind:this={el}>
-	<div>Heg's a bitch</div>
+	<div>Power rankings are calculated from SLEEPER'S points projections for your players across the whole season, it is not perfect, do not complain to me.</div>
 	<div id="navigation">
 		<ul>
 			{#each tabs as tab}
@@ -112,10 +112,12 @@
                         <!-- Shouldn't show Managers tab unless managers has been populated -->
 				        {#if child.label != "Managers" || managers.length > 0}
                             <li><div class="navLink" on:click={() => goto(child.dest)}>{child.label}</div></li>
-                        {/if}
-					{/each}
-				{/if}
+			{/if}
 			{/each}
+			{/if}
+			{/each}
+			<div>Heg's a bitch</div>
+
 		</ul>
 	</div>
 
