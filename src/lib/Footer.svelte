@@ -112,10 +112,7 @@
                         <!-- Shouldn't show Managers tab unless managers has been populated -->
 				        {#if child.label != "Managers" || managers.length > 0}
                             <li><div class="navLink" on:click={() => goto(child.dest)}>{child.label}</div></li>
-			{/if}
-			{/each}
-			{/if}
-			{/each}
+		
 			<div>Heg's a bitch</div>
 
 		</ul>
