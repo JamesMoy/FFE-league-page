@@ -10,13 +10,6 @@
 	icon: "insights",
 	premium: true,
 	separator: true,
-	},
-	{
-	name: "UnderDog Fantasy",
-	url: "https://underdogfantasy.com/",
-	icon: "podcasts",
-	premium: true,
-	separator: true,
 	}
 	];
 </script>
