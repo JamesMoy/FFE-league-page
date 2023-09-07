@@ -286,12 +286,16 @@
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: $</li>
-        <li>2nd place: $100</li>
+        <li>1st place: $600</li>
+        <li>2nd place: $350</li>
+		<li>Reaching the Playoffs: $25</li>
+		<li>Winning a Playoff game (including bye): $25</li>
+		<li>Wager Bets: Determined by bettors</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
     <h3 bind:this={sevenThree}>7.3 The Belt</h3>
-    <p>We play for the Belt. The Belt is the league trophy and marks the reigning, defending, undisputed champion of our league. Legend says it was worn by Jesus Christ himself, </p>
-	<p>bestowing great strength and vitality to whoever wears it.</p>
+    <p>
+		The Belt is the league trophy and denotes the REIGNING, DEFENDING, UNDISPUTED CHAMPION of our league. The champion will own the belt until a new champion is crowned, each champion will have their name engraved onto a plate on the belt. The belt is made from the finest leather and Legend says it was worn by Jesus Christ himself, bestowing great strength and vitality to whoever wears it.
+	</p>
 </div>
