@@ -43,37 +43,3 @@
     $: top = el?.getBoundingClientRect() ? el?.getBoundingClientRect().top  : 0;
 </script>
 
-<style>
-    .pageBody {
-        position: relative;
-        z-index: 1;
-        margin-bottom: 60px;
-    }
-
-    h4 {
-        text-align: center;
-    }
-
-    .articles {
-        width: 85%;
-        margin: 0 auto;
-        max-width: 800px;
-    }
-
-    :global(.article) {
-        margin: 20px auto;
-    }
-</style>
-
-<div class="pageBody">
-    <div class="banner" bind:this={el}>
-        <h4>Fantasy Football News and Updates</h4>
-    </div>
-
-    <div class="articles">
-        {#each displayArticles as article}
-            <SingleNews {article} />
-        {/each}
-        <Pagination {perPage} {total} bind:page={page} target={top} />
-    </div>
-</div>
