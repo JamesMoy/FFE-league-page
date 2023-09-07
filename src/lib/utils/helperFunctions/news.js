@@ -1,4 +1,4 @@
-import { waitForAll } from './multiPromise';
+/*import { waitForAll } from './multiPromise';
 import { get } from 'svelte/store';
 import {news} from '$lib/stores';
 import { dynasty } from '$lib/utils/leagueInfo';
@@ -106,10 +106,10 @@ function decodeHTML(str) {
 
         if (entityCode in htmlEntities) {
             return htmlEntities[entityCode];
-            /*eslint no-cond-assign: 0*/
+            *//*eslint no-cond-assign: 0*//*
         } else if (match = entityCode.match(/^#x([\da-fA-F]+)$/)) {
             return String.fromCharCode(parseInt(match[1], 16));
-            /*eslint no-cond-assign: 0*/
+            *//*eslint no-cond-assign: 0*//*
         } else if (match = entityCode.match(/^#(\d+)$/)) {
             return String.fromCharCode(~~match[1]);
         } else {
@@ -120,4 +120,4 @@ function decodeHTML(str) {
 
 export const stringDate = (d) => {
 	return `${d.getMonth()+1}/${d.getDate()}/${d.getFullYear()} ${d.getHours() % 12}:${(d.getMinutes() < 10 ? '0' : '') + d.getMinutes()}${d.getHours() / 12 >= 1 ? "PM" : "AM"}`;
-}
+}*/

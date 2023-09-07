@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\lib",
+    "\\src\\lib\\News",
+    "\\src\\lib\\utils",
+    "\\src\\routes",
+    "\\src\\routes\\api",
+    "\\src\\routes\\api\\getBlogPosts",
+    "\\src\\routes\\resources",
+    "\\src\\theme"
   ],
-  "SelectedNode": "\\C:\\Users\\James\\Source\\Repos\\FFE-league-page",
+  "SelectedNode": "\\static",
   "PreviewInSolutionExplorer": false
 }
