@@ -7,9 +7,9 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>
-    <img src= "newspaper.png">
-  </p>
+  <div class="imgbox">
+    <img class="center-fit" src='newspaper.png'>
+</div>
 
 
  <p></p>
