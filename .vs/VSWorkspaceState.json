@@ -3,7 +3,7 @@
     "",
     "\\src",
     "\\src\\lib",
-    "\\src\\lib\\News",
+    "\\src\\lib\\Records",
     "\\src\\lib\\utils",
     "\\src\\routes",
     "\\src\\routes\\api",
@@ -11,6 +11,5 @@
     "\\src\\routes\\resources",
     "\\src\\theme"
   ],
-  "SelectedNode": "\\static",
   "PreviewInSolutionExplorer": false
 }
