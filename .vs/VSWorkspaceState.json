@@ -3,13 +3,14 @@
     "",
     "\\src",
     "\\src\\lib",
-    "\\src\\lib\\Records",
-    "\\src\\lib\\utils",
+    "\\src\\lib\\Matchups",
+    "\\src\\lib\\Rosters",
+    "\\src\\lib\\Standings",
     "\\src\\routes",
     "\\src\\routes\\api",
     "\\src\\routes\\api\\getBlogPosts",
-    "\\src\\routes\\resources",
-    "\\src\\theme"
+    "\\static"
   ],
+  "SelectedNode": "\\static\\red.png",
   "PreviewInSolutionExplorer": false
 }
